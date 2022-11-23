@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+     <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+   <!-------navbar------> 
+  <header class="header">
+      <img src="images/Untitled-1.png" alt="">
+      
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#features">features</a>
+         <a href="#products">products</a>
+         <a href="#categories">categories</a>
+         <a href="#review">review</a>
+         <a href="#blogs">blogs</a>
+      </nav>
+      <div class="icons">
+          <div class="fas fa-bars" id="menu-btn"></div>
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-shopping-cart" id="cart-btn"></div>
+          <div class="fas fa-user" id="login-btn"></div>
+      </div>
+  </header>
+  
+  
+   <!-------slider------>
+   
+   <div class="hero">
+       <div class="carousel">
+           <ul>
+               <li><img src="images/web3.jpg"alt=""></li>
+               <li><img src="images/unnamed2.jpg" alt=""></li>
+               <li><img src="images/unnamed3.jpg" alt=""></li>
+               <li><img src="images/unnamed4.jpg" alt=""></li>
+               <li><img src="images/unnamed5.webp" alt=""></li>
+               <li><img src="images/unnamed6.webp" alt=""></li>
+               <li><img src="images/unnamed7.jpg" alt=""></li>
+               <li><img src="images/unnamed8.jpg" alt=""></li>
+               <li><img src="images/unnamed4.jpg" alt=""></li>
+               <li><img src="images/web3.jpg" alt=""></li>
+           </ul>
+       </div>
+       <h1>What you can do with Sponsored Content</h1>
+       <h2>Drive leads, build brand awareness, and nurture key relationships at every stage of your sales cycle
+TARGET THE PROFESSIONALS YOU WANT
+Build your ideal audience with LinkedIn profile </h2>
+   </div>
+   
+       
+   
+<!-------features------>
+   <div class="showcase-section">
+       <h1>our to collection</h1>
+       <div class="gallery">
+           <div class="gallery-card">
+               <img src="images/web3.jpg" alt="">
+               <h1>NFT #8856</h1>
+               <h2>current bid: <span class="bid">15 ETH</span></h2>
+               <button>place bid</button>
+           </div>
+           
+           <div class="gallery-card">
+               <img src="images/unnamed5.webp" alt="">
+               <h1>NFT #8856</h1>
+               <h2>current bid: <span class="bid">15 ETH</span></h2>
+               <button>place bid</button>
+           </div>
+           
+           <div class="gallery-card">
+               <img src="images/unnamed4.jpg" alt="">
+               <h1>NFT #8856</h1>
+               <h2>current bid: <span class="bid">15 ETH</span></h2>
+               <button>place bid</button>
+           </div>
+       </div>
+        
+   </div>
+   <div class="categories">
+         <h1>features</h1>
+          <div class="row">
+              <div class="col-3">
+                  <img src="images/unnamed2.jpg">
+              </div>
+              <div class="col-3">
+                  <img src="images/unnamed4.jpg">
+              </div>
+              <div class="col-3">
+                  <img src="images/unnamed6.webp">
+              </div>
+              <div class="col-4">
+                  <img src="images/unnamed6.webp">
+              </div>
+              <div class="col-4">
+                  <img src="images/unnamed6.webp">
+              </div>
+              <div class="col-4">
+                  <img src="images/unnamed6.webp">
+              </div>
+          </div> 
+       </div>
+   
+   
+   
+   
+   
+   
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+   <script src="jquery.flipster.min.js"></script>
+   <script>
+    $('.carousel').flipster({
+        style:'carousel',
+        spacing:-0.3,
+    });
+</script>
+</body>
+</html>
